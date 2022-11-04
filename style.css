@@ -74,7 +74,9 @@ input{
 }
 footer {
   text-align: center;
-  margin-top: 32px;
+  margin-top: 32px ;
+  margin-bottom: 8px;
+
 }
 #size{
   background-color: rgb(134, 204, 177);
