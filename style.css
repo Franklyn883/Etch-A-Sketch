@@ -1,0 +1,82 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #F1F0CC;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+  font-family: 'Poor Story', cursive;
+  background-color:  #ddddbe;
+  text-align: center;
+  box-shadow: 1px 1px 1px 1px black;
+}
+header h1{
+  padding: 12px 0;
+}
+.board{
+  height: 500px;
+  width :500px;
+  display:grid;
+  
+  margin: 16px 0;
+  box-shadow: 1px 3px 2px 1px rgb(49, 43, 43)
+}
+.content{
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+   
+}
+.error{
+  margin-top: 8px;
+  display: none;
+}
+button{
+  padding:8px 16px;
+  border-radius: 8px;
+  margin: 8px 4px;
+  text-decoration: none;
+  font-family: inherit;
+  transition: all 0.2secs;
+  cursor: pointer;
+  background-color: #F6F5AE;
+  text-align: center;
+  border-style: none;
+  border: 1px solid black;
+  box-shadow: 1px 3px 2px rgb(49, 43, 43);
+}
+
+input{
+  height:30px;
+  width:82px;
+  text-align: center;
+}
+#black{
+  background-color: black;
+  color:white;
+}
+#red{
+  background-color: red;
+}
+#random{
+  background-image: linear-gradient(to left, yellow,green,yellow);
+}
+.buttons{
+  border:1px solid black;
+  padding:8px 16px;
+  background-color: #faf8b8;
+  border-radius: 8px;
+}
+footer {
+  text-align: center;
+  margin-top: 32px;
+}
+#size{
+  background-color: rgb(134, 204, 177);
+  padding:8px
+}
