@@ -80,5 +80,6 @@ footer {
 }
 #size{
   background-color: rgb(134, 204, 177);
-  padding:8px
+  padding:4px 8px;
+  vertical-align: center;
 }
